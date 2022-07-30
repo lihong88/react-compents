@@ -14,4 +14,4 @@ Demo:
 
 <code src="./demo/index.tsx"></code>
 
-More skills for writing demo: https://d.umijs.org/guide/basic#write-component-demo
+More skills for writing demo: https://infeng.github.io/react-viewer/

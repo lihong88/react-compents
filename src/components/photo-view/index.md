@@ -18,4 +18,4 @@ Demo:
 
 <code src="./demo/doc-backdrop.tsx"></code>
 
-More skills for writing demo: https://d.umijs.org/guide/basic#write-component-demo
+更多请查看 demo : https://react-photo-view.vercel.app/docs/getting-started
