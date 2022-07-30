@@ -1,1 +1,14 @@
-export { default as Foo } from './Foo';
+// export { default as Foo } from './Foo';
+// export { default as Foo } from './components/Foo';
+// export { default as Foo2 } from './components/viewer';
+export { default as Foo } from './components/Foo';
+export type { ViewerProps } from './components/viewer';
+export { default as Viewer } from './components/viewer';
+export { default as PhotoViewr } from './components/photo-view';
+// import PhotoProvider from './components/photo-view';
+// import PhotoView from './components/photo-view';
+// import PhotoSlider from './components/photo-view';
+// export type { PhotoProviderProps } from './components/photo-view/PhotoProvider';
+// export type { PhotoViewProps } from './components/photo-view/PhotoView';
+// export type { IPhotoSliderProps } from './components/photo-view/PhotoSlider';
+// export { PhotoProvider, PhotoView, PhotoSlider };

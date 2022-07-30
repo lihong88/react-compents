@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+@navbarHeight: 50px;
+
+.navbar {
+  width: 100%;
+  height: @navbarHeight;
+  background-color: #0074d9;
+}
+
+.img-fork {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 130px;
+}
+
+.container-fluid {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.navbar-brand {
+  margin-right: 24px;
+  color: white;
+  font-size: 2rem;
+}
+
+.bagde {
+  display: flex;
+  align-items: center;
+  margin-left: 6px;
+}
+
+.github {
+  position: absolute;
+  right: 15px;
+}
+
+.container {
+  padding: 1.5em 2em 2em 2em;
+}
+
+.wrap {
+  display: flex;
+}
+
+.img-list-wrap {
+  flex: 1;
+}
+
+.img-list {
+  display: flex;
+  justify-content: flex-start;
+
+  &.hide {
+    display: none;
+  }
+}
+
+@imgItemWidth: 150px;
+@imgOffset: 30px;
+
+.img-item {
+  width: @imgItemWidth;
+  height: @imgItemWidth;
+  padding: 1px;
+}
+
+.img-item > img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #0b2f3d;
+}
+.container-footer {
+  padding: 24px;
+  text-align: center;
+}
+.signature {
+  color: white;
+}
+.container {
+  position: relative;
+}
+.inline-container {
+  display: none;
+  max-width: 600px;
+  // height: 400px;
+
+  &.show {
+    display: block;
+  }
+}
+.options {
+  width: 100%;
+  max-width: 250px;
+  margin-top: 12px;
+  margin-right: 48px;
+}
+.options-list {
+  height: 440px;
+  margin-top: 12px;
+  overflow: auto;
+}
